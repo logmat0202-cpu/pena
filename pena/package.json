@@ -1,0 +1,11 @@
+{
+  "name": "pena-3d-car-wash",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Уютная 3D-автомойка от первого лица",
+  "scripts": {
+    "start": "python3 -m http.server 5173 --directory dist",
+    "test": "node tests/engine-regression.mjs && node tests/wash3d-regression.mjs"
+  }
+}
